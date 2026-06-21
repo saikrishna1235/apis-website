@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -63,32 +63,19 @@ export default function Hero() {
           transition={{ delay: 0.9 }}
           className="flex flex-col sm:flex-row justify-center gap-4"
         >
-          <button
-            className="
-            bg-emerald-500
-            hover:bg-emerald-600
-            px-8 py-4 rounded-xl
-            font-semibold
-            transition-all duration-300
-            hover:scale-105
-            shadow-lg
-            "
-          >
-            Explore Courses
-          </button>
+          <Link
+  href="/courses"
+  className="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg"
+>
+  Explore Courses
+</Link>
 
-          <button
-            className="
-            border border-white
-            px-8 py-4 rounded-xl
-            hover:bg-white
-            hover:text-slate-900
-            transition-all duration-300
-            hover:scale-105
-            "
+          <Link
+            href="/contact"
+            className="border border-white px-8 py-4 rounded-full text-white hover:bg-white hover:text-slate-900 transition-all duration-300"
           >
             Contact Us
-          </button>
+          </Link>
         </motion.div>
 
       </div>
