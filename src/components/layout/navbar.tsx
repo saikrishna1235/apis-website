@@ -168,7 +168,7 @@ export default function Navbar() {
                 setModalOpen(true);
                 setIsOpen(false);
               }}
-              className="mt-3 bg-gradient-to-r from-blue-600 to-green-600 text-white py-3 rounded-xl font-semibold shadow-lg"
+              className="mt-3 bg-gradient-to-r from-slate-900 via-blue-800 to-cyan-700 text-white py-3 rounded-xl font-semibold shadow-lg"
             >
               Enroll Now
             </button>
