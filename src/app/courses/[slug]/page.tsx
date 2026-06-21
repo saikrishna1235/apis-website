@@ -66,7 +66,7 @@ export default async function CoursePage({
   </h2>
 
   <div className="space-y-6">
-    {course.modules.map((module) => (
+    {course.modules.map((module: any) => (
       <div
         key={module.title}
         className="bg-white rounded-2xl shadow-lg border border-slate-100 p-8"
@@ -76,7 +76,7 @@ export default async function CoursePage({
         </h3>
 
         <ul className="grid md:grid-cols-2 gap-3">
-          {module.topics.map((topic) => (
+          {module.topics.map((topic: string) => (
             <li
               key={topic}
               className="flex items-center gap-3"
