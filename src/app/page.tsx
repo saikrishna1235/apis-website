@@ -2,7 +2,7 @@ import Hero from "@/components/home/hero";
 import CourseCard from "@/components/courses/course-card";
 import SectionHeading from "@/components/ui/section-heading";
 import { courses } from "@/data/courses";
-
+import Link from "next/link";
 export default function HomePage() {
   return (
     <>
@@ -100,12 +100,11 @@ export default function HomePage() {
         </div>
 
         <h3 className="font-bold text-2xl mb-3">
-          Career Ready
+          Book free demo
         </h3>
 
         <p className="text-slate-600">
-          Resume building, interview preparation,
-          and placement guidance.
+          With APIS
         </p>
 
       </div>
@@ -194,7 +193,7 @@ export default function HomePage() {
         {
           icon: "🚀",
           title: "Career Guidance",
-          desc: "Dedicated mentorship and placement support."
+          desc: "From APIS"
         },
       ].map((item) => (
         <div
@@ -260,13 +259,19 @@ export default function HomePage() {
 
     <div className="flex flex-col sm:flex-row justify-center gap-5">
 
-      <button className="bg-white text-blue-700 font-semibold px-10 py-4 rounded-2xl hover:scale-105 transition duration-300">
+      <Link
+        href="/courses"
+        className="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg"
+      >
         Explore Courses
-      </button>
+      </Link>
 
-      <button className="border border-white px-10 py-4 rounded-2xl hover:bg-white hover:text-blue-700 transition duration-300">
+      <Link
+        href="/contact"
+        className="border border-white px-8 py-4 rounded-full text-white hover:bg-white hover:text-slate-900 transition-all duration-300"
+      >
         Contact Us
-      </button>
+      </Link>
 
     </div>
 
