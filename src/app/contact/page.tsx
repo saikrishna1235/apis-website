@@ -13,8 +13,8 @@ export default function ContactPage() {
             Get in Touch
           </h2>
 
-          <p>Email: info@apis.com</p>
-          <p>Phone: +91 XXXXX XXXXX</p>
+          <p>Email: apistrainer@gmail.com</p>
+          <p>Phone: +91 6300014585</p>
         </div>
 
         <form className="space-y-4">

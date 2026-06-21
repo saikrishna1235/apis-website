@@ -68,8 +68,8 @@ export default function Footer() {
 
             <ul className="space-y-3 text-slate-400">
 
-              <li>📧 info@apis.com</li>
-              <li>📞 +91 XXXXX XXXXX</li>
+              <li>📧 apistrainer@gmail.com</li>
+              <li>📞 +91 6300014585</li>
               <li>📍 Hyderabad, India</li>
 
             </ul>
@@ -86,9 +86,9 @@ export default function Footer() {
 
           <div className="flex gap-6 mt-4 md:mt-0 text-slate-400">
 
-            <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
-            <a href="#">YouTube</a>
+            <a href="https://chat.whatsapp.com/CXfHAdQxWWuDvXJkBUBRki">WhatsApp Community</a>
+            <a href="https://www.instagram.com/apistrainer">Instagram</a>
+            <a href="https://youtube.com/shorts/WMMzSp-J0ts?si=hQVI34144q0c1PW1">YouTube</a>
 
           </div>
 
