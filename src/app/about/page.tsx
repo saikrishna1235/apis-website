@@ -109,7 +109,6 @@ export default function AboutPage() {
             "Resume Building Support",
             "Mock Interview Preparation",
             "Career Guidance",
-            "Placement Guidance",
             "Professional Skill Development",
             "Flexible Learning Opportunities",
           ].map((item) => (
