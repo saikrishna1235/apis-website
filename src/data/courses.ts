@@ -1,6 +1,6 @@
-import { Course } from "@/types/course";
+// import { Course } from "@/types/course";
 
-export const courses: Course[] = [
+export const courses = [
   {
     id: "1",
     slug: "pharmacovigilance",
