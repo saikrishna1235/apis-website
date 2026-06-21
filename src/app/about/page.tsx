@@ -7,10 +7,10 @@ export default function AboutPage() {
       </h1>
 
       <p className="text-lg leading-8">
-        APIS (Advanced Pharma IT Services) is dedicated to
-        providing industry-focused pharmaceutical and
-        healthcare training programs that bridge the gap
-        between academics and industry requirements.
+        💊🚀 APIS – Advanced Pharma IT Services
+        Are you a Pharmacy or Life Science student looking to build a career in the Pharma & Healthcare Industry?
+
+        Connect with APIS and stay updated with industry insights, career guidance, educational content, and training opportunities
       </p>
 
     </div>
