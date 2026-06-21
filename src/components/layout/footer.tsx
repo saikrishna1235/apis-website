@@ -54,6 +54,10 @@ export default function Footer() {
               <li>Clinical Research</li>
               <li>Medical Coding</li>
               <li>Regulatory Affairs</li>
+              <li>Clinical Data Management</li>
+              <li>Clinical SAS</li>
+              <li>Materiovigilance</li>
+              <li>Pharma AI</li>
 
             </ul>
 
@@ -70,7 +74,7 @@ export default function Footer() {
 
               <li>📧 apistrainer@gmail.com</li>
               <li>📞 +91 6300014585</li>
-              <li>📍 Hyderabad, India</li>
+              <li>📍 Dr. B. R. Ambedkar Konaseema District, Andhra Pradesh, India.</li>
 
             </ul>
 
@@ -81,7 +85,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
 
           <p className="text-slate-500">
-            © 2025 APIS. All Rights Reserved.
+            © 2026 APIS. All Rights Reserved.
           </p>
 
           <div className="flex gap-6 mt-4 md:mt-0 text-slate-400">
