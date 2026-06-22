@@ -1,25 +1,29 @@
+// src/app/sitemap.ts
+
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://www.apishealthcare.co.in";
+
   return [
     {
-      url: "https://www.apishealthcare.co.in",
+      url: baseUrl,
       lastModified: new Date(),
     },
     {
-      url: "https://www.apishealthcare.co.in/about",
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.apishealthcare.co.in/courses",
+      url: `${baseUrl}/courses`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.apishealthcare.co.in/contact",
+      url: `${baseUrl}/contact`,
       lastModified: new Date(),
     },
     {
-      url: "https://www.apishealthcare.co.in/faq",
+      url: `${baseUrl}/faq`,
       lastModified: new Date(),
     },
   ];
