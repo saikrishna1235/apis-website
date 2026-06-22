@@ -1,26 +1,47 @@
-import "./globals.css";
+import type { Metadata } from "next";
 
-import Navbar from "@/components/layout/navbar";
-import Footer from "@/components/layout/footer";
+export const metadata: Metadata = {
+  title: {
+    default: "APIS Healthcare | Pharma & Healthcare Training Institute",
+    template: "%s | APIS Healthcare",
+  },
+  description:
+    "APIS Healthcare offers industry-focused training in Pharmacovigilance, Clinical Research, Regulatory Affairs, Medical Coding, Clinical Data Management, SAS Programming, and Pharma IT Services.",
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body>
+  keywords: [
+    "Pharmacovigilance Training",
+    "Clinical Research Course",
+    "Regulatory Affairs Training",
+    "Medical Coding Training",
+    "Clinical Data Management",
+    "SAS Programming",
+    "Pharma Training Institute",
+    "Healthcare Courses",
+    "APIS Healthcare",
+    "Pharma IT Services",
+  ],
 
-        <Navbar />
+  metadataBase: new URL("https://www.apishealthcare.co.in"),
 
-        <main>
-          {children}
-        </main>
+  openGraph: {
+    title: "APIS Healthcare",
+    description:
+      "Industry-focused Pharma & Healthcare training programs.",
+    url: "https://www.apishealthcare.co.in",
+    siteName: "APIS Healthcare",
+    locale: "en_IN",
+    type: "website",
+  },
 
-        <Footer />
+  twitter: {
+    card: "summary_large_image",
+    title: "APIS Healthcare",
+    description:
+      "Professional Pharma & Healthcare Training Programs",
+  },
 
-      </body>
-    </html>
-  );
-}
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
