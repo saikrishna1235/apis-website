@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
     default: "APIS Healthcare | Pharma & Healthcare Training Institute",
     template: "%s | APIS Healthcare",
   },
+
   description:
-    "APIS Healthcare offers industry-focused training in Pharmacovigilance, Clinical Research, Regulatory Affairs, Medical Coding, Clinical Data Management, SAS Programming, and Pharma IT Services.",
+    "APIS Healthcare offers industry-focused training in Pharmacovigilance, Clinical Research, Regulatory Affairs, Medical Coding, Clinical Data Management, SAS Programming and Pharma IT Services.",
 
   keywords: [
     "Pharmacovigilance Training",
@@ -45,3 +47,31 @@ export const metadata: Metadata = {
     follow: true,
   },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: "APIS Healthcare",
+    url: "https://www.apishealthcare.co.in",
+    logo: "https://www.apishealthcare.co.in/logo.png",
+  };
+
+  return (
+    <html lang="en">
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema),
+          }}
+        />
+        {children}
+      </body>
+    </html>
+  );
+}
