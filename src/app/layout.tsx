@@ -78,15 +78,8 @@ export default function RootLayout({
       {children}
 
       <Footer />
-      <body>
-  <Navbar />
-
-  {children}
-
-  <Footer />
-
-  <WhatsAppButton />
-</body>
+      <WhatsAppButton />
+     
     </body>
   </html>
 );
