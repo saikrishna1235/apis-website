@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
+import WhatsAppButton from "@/components/layout/WhatsAppButton";
 export const metadata: Metadata = {
   title: {
     default: "APIS Healthcare | Pharma & Healthcare Training Institute",
@@ -77,6 +78,15 @@ export default function RootLayout({
       {children}
 
       <Footer />
+      <body>
+  <Navbar />
+
+  {children}
+
+  <Footer />
+
+  <WhatsAppButton />
+</body>
     </body>
   </html>
 );
