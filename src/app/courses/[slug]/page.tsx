@@ -128,7 +128,7 @@ export default async function CoursePage({
 
       {/* OUTCOME */}
       <section className="max-w-6xl mx-auto px-6 pb-20">
-        <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-3xl p-10">
+        <div className="bg-gradient-to-r from-slate-900 via-blue-800 to-cyan-700 text-white rounded-3xl p-10">
           <h2 className="text-3xl font-bold mb-6">
             What You'll Achieve
           </h2>
@@ -139,22 +139,7 @@ export default async function CoursePage({
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="max-w-6xl mx-auto px-6 pb-24">
-        <div className="bg-gradient-to-r from-blue-600 to-green-600 rounded-3xl p-16 text-center text-white">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Build Your Career?
-          </h2>
-
-          <p className="text-xl mb-8">
-            Join APIS and become industry-ready.
-          </p>
-
-          <button className="bg-white text-blue-700 px-10 py-4 rounded-xl font-semibold">
-            Enroll Now
-          </button>
-        </div>
-      </section>
+      
     </>
   );
 }
