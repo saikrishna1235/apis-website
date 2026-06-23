@@ -20,7 +20,7 @@ export default async function CoursePage({
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative h-[450px] flex items-center justify-center">
+      <section className="relative min-h-[650px] md:min-h-[450px] flex items-center justify-center">
         <Image
           src={course.image}
           alt={course.title}
@@ -30,19 +30,19 @@ export default async function CoursePage({
 
         <div className="absolute inset-0 bg-gradient-to-r from-blue-950/80 to-green-900/70" />
 
-        <div className="relative z-10 text-center text-white max-w-4xl px-6">
-          <span className="bg-green-500/20 border border-green-400 px-4 py-2 rounded-full text-sm">
-            APIS Professional Program
-          </span>
+        <div className="relative z-10 text-center text-white max-w-4xl px-4 sm:px-6">
+        <span className="bg-green-500/20 border border-green-400 px-4 py-2 rounded-full text-xs sm:text-sm">
+          APIS Professional Program
+        </span>
 
-          <h1 className="text-5xl md:text-7xl font-bold mt-6 mb-6">
-            {course.title}
-          </h1>
+        <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold mt-6 mb-6 leading-tight">
+          {course.title}
+        </h1>
 
-          <p className="text-xl text-slate-200">
-            {course.shortDescription}
-          </p>
-        </div>
+        <p className="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed">
+          {course.shortDescription}
+        </p>
+      </div>
       </section>
 
       {/* COURSE OVERVIEW */}
