@@ -34,7 +34,7 @@ canonical: "https://www.apishealthcare.co.in",
 
 icons: {
 icon: "/favicon.png",
-shortcut: "/favicon.png",
+shortcut: "/favicon.ico",
 apple: "/favicon.png",
 },
 
