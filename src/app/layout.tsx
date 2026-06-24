@@ -11,7 +11,12 @@ export const metadata: Metadata = {
 
   description:
     "APIS Healthcare offers industry-focused training in Pharmacovigilance, Clinical Research, Regulatory Affairs, Medical Coding, Clinical Data Management, SAS Programming and Pharma IT Services.",
-
+    
+    icons: {
+    icon: "/favicon.jpg",
+    shortcut: "/favicon.jpg",
+    apple: "/favicon.jpg",
+  },
   keywords: [
     "Pharmacovigilance Training",
     "Clinical Research Course",
