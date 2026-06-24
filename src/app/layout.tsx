@@ -33,9 +33,9 @@ canonical: "https://www.apishealthcare.co.in",
 },
 
 icons: {
-icon: "/favicon.jpg",
-shortcut: "/favicon.jpg",
-apple: "/favicon.jpg",
+icon: "/favicon.png",
+shortcut: "/favicon.png",
+apple: "/favicon.png",
 },
 
 openGraph: {
