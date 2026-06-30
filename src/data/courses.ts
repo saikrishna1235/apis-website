@@ -4,12 +4,11 @@ export const courses = [
   {
 id: "1",
 slug: "pharmacovigilance",
-title: "Pharmacovigilance",
+title: "Pharmacovigilance", 
 image: "/images/courses/pharmacovigilance.jpg",
 
 shortDescription:
 "Comprehensive drug safety, adverse event reporting, case processing, signal management and global pharmacovigilance regulations.",
-
 introduction:
 "Pharmacovigilance is the science and activities related to the detection, assessment, understanding, and prevention of adverse effects or any other drug-related problems. The primary objective of Pharmacovigilance is to ensure patient safety and monitor the benefit-risk profile of medicinal products throughout their lifecycle.",
 
