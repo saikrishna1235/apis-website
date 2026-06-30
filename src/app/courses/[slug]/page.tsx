@@ -87,12 +87,42 @@ const courseSchema = {
     sameAs: "https://www.apishealthcare.co.in",
   },
 };
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.apishealthcare.co.in",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Courses",
+      item: "https://www.apishealthcare.co.in/courses",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: course.title,
+      item: `https://www.apishealthcare.co.in/courses/${course.slug}`,
+    },
+  ],
+};
   return (
     <>
     <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify(courseSchema),
+  }}
+/>
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(breadcrumbSchema),
   }}
 />
       {/* HERO SECTION */}
