@@ -1,0 +1,21 @@
+{
+  "name": "APIS Healthcare",
+  "short_name": "APIS",
+  "description": "Industry-focused Pharma & Healthcare Training Institute",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0D6EFD",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

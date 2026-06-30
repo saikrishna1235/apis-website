@@ -23,7 +23,7 @@ Interested Course: ${course}
 Question:
 ${message}`;
 
-    const phone = "916302692517"; // Replace with your WhatsApp number
+    const phone = "916300014585"; // Replace with your WhatsApp number
 
     window.open(
       `https://wa.me/${phone}?text=${encodeURIComponent(text)}`,

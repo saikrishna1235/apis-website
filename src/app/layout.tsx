@@ -67,11 +67,72 @@ children,
 children: React.ReactNode;
 }) {
 const schema = {
-"@context": "https://schema.org",
-"@type": "EducationalOrganization",
-name: "APIS Healthcare",
-url: "https://www.apishealthcare.co.in",
-logo: "https://www.apishealthcare.co.in/logo.png",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.apishealthcare.co.in/#organization",
+
+      name: "APIS Healthcare",
+
+      url: "https://www.apishealthcare.co.in",
+
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.apishealthcare.co.in/images/logo.png",
+      },
+
+      sameAs: [
+        "https://www.facebook.com/people/Apis-Apis/pfbid0NLVJsR92CGHuepPcCBnCH53e9ycuy9tanMAkvXDheHhy7dEWiqtvKtxfQcGYgwGhl/",
+        "https://t.me/+QAXPclZcR_0wZjA1",
+        "https://www.instagram.com/apistrainer",
+        "https://www.youtube.com/@AdvancedpharmaITservices/shorts"
+      ],
+
+      email: "apistrainer@gmail.com",
+
+      telephone: "+916300014585",
+    },
+
+    {
+      "@type": "EducationalOrganization",
+
+      name: "APIS Healthcare",
+
+      url: "https://www.apishealthcare.co.in",
+
+      logo: "https://www.apishealthcare.co.in/images/logo.png",
+
+      address: {
+        "@type": "PostalAddress",
+
+        streetAddress: "Online",
+
+        addressLocality: "krapachintalapudi",
+
+        addressRegion: "AndhraPradesh",
+
+        postalCode: " 533216",
+
+        addressCountry: "IN",
+      },
+
+      contactPoint: {
+        "@type": "ContactPoint",
+
+        telephone: "+916300014585",
+
+        contactType: "Customer Support",
+
+        areaServed: "IN",
+
+        availableLanguage: [
+          "English",
+          "Telugu",
+        ],
+      },
+    },
+  ],
 };
 
 return ( <html lang="en"> <body>
